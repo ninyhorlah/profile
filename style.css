@@ -1,0 +1,91 @@
+body {
+    
+    
+    background-image: url('./img/laptop6.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    background-attachment: fixed;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    
+    
+    
+}
+
+img {
+    background-color: rgb(153, 166, 180);
+    padding: 30px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 0 30px 0 30px;
+    
+}
+.info{
+    border: 2px solid black;
+}
+
+/* styling the container */
+
+.container{
+    padding: 70px;
+}
+
+ul li {
+    padding: 40px;
+    
+}
+
+.about {
+    background-color: rgb(190, 202, 214);
+    
+    padding-bottom: 20px;
+    border-radius: 0 30px 0 30px;
+    margin: auto;
+    align-items: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+/* styling form */
+.form h2{
+    text-align: center;
+} 
+
+fieldset {
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+    border: none;
+    opacity: 0.5;
+    border-radius: 5px;
+    background-color: rgb(173, 175, 175);
+    margin-bottom: 80px;
+    
+}
+
+input {
+    padding: 20px 250px 20px 0;
+    background-color: rgb(253, 253, 255);
+    border-radius: 6px;
+    border: none;
+    
+}
+
+
+select {
+    padding: 20px 325px 20px 0;
+    border-radius: 6px;
+    background-color: rgb(253, 253, 255);
+}
+
+textarea {
+    padding-right: 100px;
+    border-radius: 6px;
+    background-color: rgb(253, 253, 255);
+}
+
+.submit {
+   text-align: center; 
+}
